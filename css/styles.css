@@ -115,7 +115,7 @@ img {
 
 /*                   HEADER                  */
 .page-header {
-	border-bottom: 1px solid #ECECEC;
+	border-bottom: 1px solid #ececec;
 
 	font-weight: 500;
 	font-size: 14px;
@@ -199,6 +199,19 @@ img {
 	padding-bottom: 94px;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 .gallery-list {
 	display: flex;
 	justify-content: center;
@@ -207,16 +220,17 @@ img {
 }
 
 .list-filter {
+	padding-bottom: 16px;
 	margin-bottom: 34px;
 	display: flex;
 	justify-content: center;
 	gap: 8px;
 }
 
+
 .portfolio-card {
 	border: 1px solid var(--secondary-text-color);
 	width: 370px;
-	
 }
 
 .portfolio-discription {
@@ -361,6 +375,7 @@ img {
 
 .advantages-list {
 	display: flex;
+	/* flex-basis: calc((100% - 90px) / 4); */
 	gap: 30px;
 }
 
@@ -375,7 +390,6 @@ img {
 .about {
 	padding-top: 94px;
 	padding-bottom: 94px;
-
 }
 
 .about-list {
@@ -412,7 +426,7 @@ img {
 
 .team-card {
 	width: 270px;
-	height: 368px;
+	min-height: 368px;
 	border-color: #757575;
 
 	background: var(--pimmary-white-color);
