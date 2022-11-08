@@ -79,6 +79,7 @@ img {
 /*       BUTTON      */
 
 .button {
+	border: 0;
 	border-radius: 4px;
 	border-color: #f5f4fa;
 	padding: 6px 22px;
@@ -220,13 +221,11 @@ img {
 }
 
 .list-filter {
-	padding-bottom: 16px;
-	margin-bottom: 34px;
+	margin-bottom: 50px;
 	display: flex;
 	justify-content: center;
 	gap: 8px;
 }
-
 
 .portfolio-card {
 	margin: 8px;
@@ -289,6 +288,8 @@ img {
 	letter-spacing: 0.03em;
 }
 
+
+
 .address-link {
 	font-style: inherit;
 
@@ -305,6 +306,10 @@ img {
 
 .address-list > .item {
 	margin-bottom: 9px;
+}
+
+.address-list > .item:last-child {
+	margin-bottom: 0;
 }
 
 .footer-link {
@@ -390,7 +395,7 @@ img {
 }
 
 .about {
-	padding-top: 94px;
+	padding-top: 0;
 	padding-bottom: 94px;
 }
 
@@ -415,6 +420,11 @@ img {
 	gap: 30px;
 }
 
+.team-discription {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 .our-team {
 	margin-bottom: 50px;
 }
@@ -436,7 +446,7 @@ img {
 }
 
 .team-img {
-	margin-bottom: 30px;
+	margin-bottom: 0;
 }
 
 .team-title {
